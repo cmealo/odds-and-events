@@ -1,0 +1,64 @@
+/* keep it minimal */
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 16px 0;
+}
+
+label {
+  font-size: 22px;
+}
+
+input[type="number"] {
+  padding: 6px 8px;
+  margin: 0 8px;
+}
+
+button {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 28px 0 8px;
+}
+
+.box {
+  border: 2px solid #444;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.box li {
+  padding: 2px 4px;
+}
+
+/* Add space after the label */
+.form-label {
+  margin-right: 8px;
+}
+
+/* Keep the form inline with other elements */
+.inline-form {
+  display: inline-block;
+}
+
+/* Add spacing before sort buttons */
+.sort-btn {
+  margin-left: 8px;
+}
